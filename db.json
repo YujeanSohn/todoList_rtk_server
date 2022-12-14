@@ -1,9 +1,24 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "todos": [
+    {
+      "id": 1670676178140,
+      "items": [
+        {
+          "id": 1670659778436,
+          "title": "청소",
+          "content": "빨래",
+          "isDone": false,
+          "editHistory": 0
+        }
+      ]
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    {
+      "id": 1670674636011,
+      "todosId": 1670676178140,
+      "content": "마라탕 맛있져~",
+      "editHistory": 0
+    }
+  ]
 }
