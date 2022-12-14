@@ -7,7 +7,7 @@ fs.copyFile("db.json", os.tmpdir()+"/db.json", function(err){
 	else console.log("copy file suceed to" + os.tmpdir());
 });
 const server = jsonServer.create()
-const router = jsonServer.router(path.resolve(os.tmpdir()+'/db.json')
+const router = jsonServer.router(path.resolve(os.tmpdir()+'/db.json'))
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
